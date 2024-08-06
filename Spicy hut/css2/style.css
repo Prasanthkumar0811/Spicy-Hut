@@ -1,0 +1,246 @@
+body,h2{
+    margin: 0;
+}
+
+:root{
+    --Y:yellow;
+    --R:red;
+    --W:white;
+    --G:green;
+
+}
+
+
+.container{
+    background-image: url('pexels-photo-128245.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: var(--W);
+    
+}
+header h2 i,nav a i {
+    margin-right:.5em;
+}
+header a{
+    text-decoration: none;
+    color: var(--R);
+    min-width: 120px;
+}
+header{
+    display: flex;
+    padding: 1em;
+    flex-wrap: wrap;
+    row-gap: 2;
+}
+
+#logo{
+    flex: 3;
+    font-size: 1.25rem;
+    min-width :260px;
+}
+
+nav{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    flex: 1;
+    
+}
+nav a:hover{
+    color: var(--G);
+}
+
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 2em;
+
+    
+
+
+}
+.topline1{
+    color: var(--R);
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.topline2{
+    color: var(--Y);
+
+}
+.maintext div{
+    margin-top: 0.75em;
+
+}
+.maintext button{
+    width: 20vw;
+    margin-top: 1em;
+    border-radius:10px;
+    background-color: var(--G);
+    padding: .5em;
+    border: 1px solid green;
+    color: var(--W);
+
+}
+
+.menu{
+    background-color: grey;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    color: var(--W);
+}
+#Menuheading,#locheading{
+    background-color: grey;
+    color:var(--R);
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+
+}
+table{
+    width: 100%;
+    padding: 10px;
+}
+.menu th{
+    color: var(--G);
+    font-size: 1.2em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.menu td:nth-child(1){
+    justify-self: left;
+    flex: 1;
+}
+.menu td:nth-child(2){
+    justify-self:right ;
+}
+.Location{
+    background-color: grey;
+    color: var(--W);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.Location h2{
+    color: var(--G);
+    margin-bottom: 20px;
+}
+.Location div{
+    flex: 1;
+}
+footer{
+    background-color:thistle;
+    color: var(--W);
+    padding: .25em;
+}
+.ss body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    margin-top: 5rem;
+    background: #111;
+  }
+  .social-menu {
+    display: flex;
+    justify-content: center;
+  }
+  .social-btn {
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    margin: 15px;
+    border-radius: 30%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 10px -5px rgb(255,255,255,0.1);
+    transition: all 0.3s;
+    z-index: 10px;
+  }
+  .social-btn a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .social-btn:hover a {
+    color: #fff;
+  }
+  .social-menu .social-btn::before {
+    content: attr(tooltip);
+    position: absolute;
+    top: 0;
+    font-size: 0.9em;
+    font-weight: bold;
+    z-index: -1;
+    opacity: 0;
+    pointer-events: auto;
+    background: #fff;
+    padding: 10px;
+    color: #000;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+  }
+  .social-menu .social-btn::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 0;
+    opacity: 0;
+    background: #fff;
+    transform: rotate(45deg);
+    left: 20%;
+    z-index: -2;
+    transition: 
+      all 0.3s ease-out;
+  }
+  .social-menu .social-btn:hover::before {
+    top: -45px;
+    opacity: 1;
+  }
+  .social-btn:hover::after {
+    top: -12px;
+    opacity: 1;
+  }
+  .facebook a {
+    color: #3b5999;
+  }
+  .facebook:hover,
+  .facebook:hover .social-btn:before,
+  .facebook:hover .social-btn:after {
+    background: #3b5999;
+  }
+  .instagram a {
+    color: #962fbf;
+  }
+  .instagram:hover,
+  .instagram:hover .social-btn:before,
+  .instagram:hover .social-btn:after {
+    background: #962fbf;
+  }
+  .pinterest a {
+    color: #c8232c;
+  }
+  .pinterest:hover,
+  .pinterest:hover .social-btn:before,
+  .pinterest:hover .social-btn:after {
+    background: #c8232c;
+  }
+  .linkedin a {
+    color: #0072b1;
+  }
+  .linkedin:hover,
+  .linkedin:hover .social-btn:before,
+  .linkedin:hover .social-btn:after {
+    background: #0072b1;
+  }
+  

@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+}
+:root{
+    --y:yellow;
+    --r:#FF0000;
+    --w:whitesmoke;
+    --g:green;
+}
+.container{
+    background-image: url('image1.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: var(--w);
+}
+header{
+
+    display: flex;
+    padding: 10px;
+    
+}
+header a{
+    text-decoration: none;
+    color: var(--y);
+}
+#logo{
+    flex: 3;
+}
+nav{
+    flex:2;
+    display: flex;
+}
+nav a{
+    flex: 1;
+    
+}
+ nav  a:hover{
+    color: var(--g);
+}
+.Maincontent{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 2em;
+
+}
+.top1{
+    color: var(--r);
+    font-size: 2.5em;
+    font-weight: bolder;
+    
+
+}
+.top2{
+    color: var(--y);
+}
+.Maincontent div{
+    margin-top: .75em;
+}
+.Maincontent button{
+    width: 20vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .7em;
+    border: 1px solid green;
+    background-color: var(--g);
+}
